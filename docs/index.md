@@ -1,17 +1,28 @@
-# Welcome to MkDocs
+# Sistema de Control de Entrada de Viviendas
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Logo HLVS](img/logo_HLVS.png)
 
-## Commands
+Bienvenido al sistema de control de entrada de viviendas del conjunto residencial HLVS. Este sistema permite registrar, monitorear y consultar el acceso de residentes y visitantes, garantizando la seguridad y el control eficiente de la portería.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## ¿Qué encontrarás en esta documentación?
 
-## Project layout
+- Guía de instalación y despliegue
+- Manual de usuario
+- Detalles técnicos y de arquitectura
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Ir a la sección de Instalación](instalacion.md)
+
+!!! tip "¿Sabías que...?"
+    El sistema HLVS puede integrarse con cámaras y sensores para mayor seguridad.
+
+## Resumen de funcionalidades principales
+
+| Funcionalidad         | Descripción                                 |
+|----------------------|---------------------------------------------|
+| Registro de entradas | Permite registrar el acceso de personas     |
+| Consulta de historial| Visualiza quién ha ingresado y cuándo       |
+| Reportes             | Genera reportes de actividad                |
+
+---
+
+Para más detalles técnicos, consulta la sección [Arquitectura](arquitectura.md).

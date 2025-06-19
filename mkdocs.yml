@@ -1,1 +1,42 @@
-site_name: My Docs
+site_name: Sistema HLVS
+site_url: https://LuisMa565.github.io/Taller4/
+theme:
+  name: material
+  logo: img/logo_HLVS.png
+  favicon: img/logo_HLVS.png
+  palette:
+    - scheme: default
+      primary: teal
+      accent: orange
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+nav:
+  - Inicio: index.md
+  - Instalación: instalacion.md
+  - Arquitectura: arquitectura.md
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: false
+      locale: es
+      type: date
+  - minify
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
